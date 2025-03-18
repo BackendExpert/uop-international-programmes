@@ -1,5 +1,5 @@
 import React from 'react'
-import UopLogo from '../../assets/uoplogo.png'
+import UopLogo from '../../assets/uop.png'
 import { MainNavData } from './DataNav'
 import { FaSearch } from 'react-icons/fa'
 
@@ -7,10 +7,14 @@ const MainNav = () => {
     return (
         <div className='xl:px-20 px-4 py-4 bg-[#560606] text-white'>
             <div className="flex justify-between">
-                <div className="">
+                <div className="flex">
                     <a href="/">
                         <img src={UopLogo} alt="" className='xl:h-20 h-12 w-auto' />
                     </a>
+                    <div className="mt-2 pl-4">
+                        <h1 className="text-xl uppercase text-[#e8b910] font-semibold">University of Peradeniya</h1>
+                        <p className="">International Students Programme</p>
+                    </div>
                 </div>
                 <div className="py-6">
                     <div className="xl:block hidden">
